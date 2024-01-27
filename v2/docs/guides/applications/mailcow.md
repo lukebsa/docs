@@ -17,6 +17,11 @@ The mail server [Mailcow](https://mailcow.email/) is a dockerized application th
  - **>= 20 GB Disk**
 :::
 
+:::note Oracle Cloud Users
+Tenancies made after June 23, 2021 are by default not allowed to send e-mail via outbound TCP port 25 to the internet.
+[OCI Docs](https://docs.oracle.com/en-us/iaas/releasenotes/changes/f7e95770-9844-43db-916c-6ccbaf2cfe24/)
+:::
+
 ## Disable Postfix 
 
 Login via **SSH** as **root** and stop and disable the **postfix** service:
